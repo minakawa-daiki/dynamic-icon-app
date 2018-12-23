@@ -1,10 +1,11 @@
+<% index = rand(2) + 1 %>
 {
-  "name": "Dynamic Icon App",
+  "name": "DynamicIconApp",
   "short_name": "DIA",
   "start_url": "/",
   "icons": [
     {
-      "src": "hoge.png",
+      "src": "icon<%=index %>.png",
       "sizes": "512x512",
       "type": "image/png"
     }
